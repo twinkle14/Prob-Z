@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>PROBZ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://kit.fontawesome.com/433f1b34e2.js" crossorigin="anonymous"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <img src="i.png"  onclick="topFunction()" id="myBtn" class="scroll-circle" title="Go to top" alt="">
+  
+  <section id="title">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark ">
+        <a class="title-probz navbar-brand" if="maint"href="# ">PROB-Z</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link " href="#about">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Contact Us</a>
+            </li>
+
+          </ul>
+        </div>
+
+
+
+      </nav>
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>A Platform to help you Solve problems of almost every CS Subject.</h1>
+        </div>
+
+
+        <div class="col-lg-6">
+          <img class="title-image" width="500px" id="mainImage" class="image" src="prob.jpg" alt="intro-image" title="intro-image">
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section id="subjects">
+    <h3 class="subject-heading">Choose the Subject</h3>
+    <div class="row">
+
+      <div class=" logo col-lg-4">
+        <i class="icon fas fa-network-wired fa-3x"></i>
+        <a class="subj nav-link " href="#networks">Computer Networks</a>
+
+      </div>
+      <div class=" logo col-lg-4">
+
+        <i class=" icon fab fa-fedora fa-3x"></i>
+        <a class="subj nav-link " href="#operating">Operating Systems</a>
+
+      </div>
+      <div class="logo col-lg-4">
+        <i class="icon  fas fa-laptop-code fa-3x"></i>
+        <a class="subj nav-link " href="#dsa">Data Structure Alogorithms</a>
+
+      </div>
+    </div>
+  </section>
+  <section id="networks">
+    <div class="color">
+
+
+      <h3 class="heading"><em>Computer Networks</em></h3>
+    <div class="row">
+      <div class=" new1 col-md-6 col-lg-4">
+        <a class="aclass" href="ipDetails.html">Find all the Details for an IP address</a>
+
+      </div>
+      <div class="new1 col-md-6 col-lg-4">
+        <a class="aclass"href="ip4Toip6.html">IPv4 to IPv6</a>
+
+      </div>
+      <div class="new1 col-md-6 col-lg-4">
+        <a class="aclass" href="ip6Toip4.html">IPv6 to IPv4</a>
+
+      </div>
+
+    </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  
+  <section id="operating">
+    <div class="white">
+
+
+      <h3 class="heading"><em>Operating Systems</em></h3>
+      <div class="row">
+        <div class=" new1 col-md-6 col-lg-4">
+          <a class="aclass1" onclick="fun()" >CPU / Disc Scheduling Algos</a>
+          <div class="btn-group dropright" >
+            <button class="btn aclass1 btn-outline-secondary dropdown-toggle" style="display: inline-block; margin-left: 30px; margin-bottom: 20px;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Select Algo.
+            </button>
+            <div class="dropdown-menu"  aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="fcfs.html">FCFS</a>
+              <a class="dropdown-item" href="sjf.html">SJF</a>
+              <a class="dropdown-item" href="round.html">Round-Robin</a>
+             
+            </div>
+          </div>
+
+        </div>
+        <div class="new1 col-md-6 col-lg-4">
+          <a class="aclass1"href="deadlock.html">Deadlock Detection</a>
+
+        </div>
+        <div class="new1 col-md-6 col-lg-4">
+          <a class="aclass1" href="page.html">Page Replacement</a>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+ 
+ 
+  
+  <section id="dsa">
+    <div class="color">
+
+
+      <h3 class="heading"><em>Data Structure And Algorithms</em></h3>
+      <div class="row">
+        <div class=" new1 col-md-6 col-lg-4">
+          <div class="dropdown">
+            <button class="btn new2 aclass btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Tree Problems
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="postorder.html">Postorder Traversal</a>
+              <a class="dropdown-item" href="preorder.html">Preorder Traversalx</a>
+              <a class="dropdown-item" href="inorder.html">Inorder Traversal</a>
+              <a class="dropdown-item" href="avl.html">Rotation Of AVL Trees</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="new1 col-md-6 col-lg-4">
+          <div class="dropdown">
+            <button class="btn new2 aclass btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Stack Problems
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="postfix.html">Postfix To Prefix</a>
+              <a class="dropdown-item" href="prefix.html">Prefix To Postfix</a>
+              <a class="dropdown-item" href="infix.html">Infix To Postfix</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="new1 col-md-6 col-lg-4">
+          <div class="dropdown">
+            <button class="btn new2 aclass btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Greedy Algorithms
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="job.html">Job Schedling Algo.</a>
+              <a class="dropdown-item" href="activity.html">Activity Selection</a>
+              <a class="dropdown-item" href="knapsack.html">knapsack Problem(0/1)</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      </div>
+  </section>
+  
+
+
+  <section id="about">
+    <div class="color ">
+      <h1 class="about1">About:</h1>
+      <h1 class="about">We have designed Website to solve the Problems of Almost all the subjects of Computer Science like Computer Networks, Operating Systems
+        And Data Strucures And Algorithms.</h1>
+        <h1 class="about">  These subjects are of utmost importance in the life of a Engineering students
+         . </h1>
+    
+      
+    </div>
+    
+  </section>
+
+  <section id="cta">
+  <footer id="footer">
+     <i class="footer-image in fab fa-instagram fa-2x" onclick="insta()" id="insta"></i>
+     <i class="footer-image face fab fa-facebook fa-2x"onClick="facebook()" id="facebook"></i>
+     <i class="footer-image tw fab fa-twitter fa-2x" onclick="twitter()" id="twitter"></i>
+     <i class="footer-image mail fas fa-envelope fa-2x" onclick="mail()" id="mail"></i>
+     <p>© Copyright 2021 Prob-Z</p>
+
+   </footer>
+   </section>
+<script>
+
+window.addEventListener('load', (event) => {
+  for(var i=0;i<=1;i=i+0.25)
+  {
+    document.getElementById("mainImage").style.opacity=i;
+  }
+});
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  docu
+  ment.documentElement.scrollTop = 0;
+}
+function fun(){
+  document.getElementById("dropdownMenuButton").click();
+}
+function insta(){
+  location.href="https://www.instagram.com/sukhbir._sv/"
+}
+function twitter(){
+  location.href="https://twitter.com/Sukhbir78764788";
+}
+function facebook(){
+  location.href="https://www.facebook.com/profile.php?id=100006633513962";
+}
+function mail(){
+  location.href="mailto:sukhbirsingh521@gmail.com"
+}
+</script>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
